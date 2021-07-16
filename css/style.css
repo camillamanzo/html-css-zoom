@@ -1,0 +1,61 @@
+            /* GENERAL INFO */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+            /* MAIN */
+
+.jumbo{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+}
+
+img{
+    width: 230px;
+    height: 125px;
+
+    z-index: 0;
+}
+
+.flex-container{
+    width: 81%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.flex-item{
+    position: relative;
+}
+
+.img-name{
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    padding: 2px 2px;
+}
+
+.img-name>p{
+    opacity: 1;
+}

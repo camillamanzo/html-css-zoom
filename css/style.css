@@ -38,7 +38,7 @@ img{
 
     justify-content: center;
     justify-content: space-between;
-    align-content: flex-end;
+    align-content: center;
 }
 
 .flex-item{
@@ -56,6 +56,41 @@ img{
     padding: 2px 2px;
 }
 
-.img-name>p{
-    opacity: 1;
+.icon-color{
+    color: white;
+}
+
+.icons-top-right{
+    position: absolute;
+    display: inline;
+    right: 1px;
+    top: 1px;
+}
+
+.icon-border{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+
+    background-color: rgb(37, 37, 37);
+    border: 1px rgb(70, 70, 70);
+}
+
+.bigger-icon{
+    font-size: 3em;
+    
+}
+
+#arrow-icon-1,
+#arrow-icon-2{
+    position: absolute;
+    top: 47%;
+}
+
+#arrow-icon-1{
+    left: 10px;
+}
+
+#arrow-icon-2{
+    right: 10px;
 }

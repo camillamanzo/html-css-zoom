@@ -12,18 +12,47 @@
     clear: both;
 }
 
+            /* HEADER */
+
+
+header{
+    height: 40px;
+    background-color: black;
+    text-align: right;
+}
+
+.icon-color{
+    color: white;
+}
+
+.icons-top-right{
+    display: inline;
+}
+
+.icon-border{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+
+    background-color: rgb(37, 37, 37);
+    border: 1px rgb(70, 70, 70);
+}
+
             /* MAIN */
+
 
 .jumbo{
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh-80px);
 
     background-color: black;
+    overflow: auto;
 }
 
 img{
     width: 230px;
     height: 125px;
+    object-fit: cover;
 
     z-index: 0;
 }
@@ -32,6 +61,7 @@ img{
     width: 81%;
     height: 100%;
     margin: auto;
+    overflow: auto;
 
     display: flex;
     flex-wrap: wrap;
@@ -56,26 +86,6 @@ img{
     padding: 2px 2px;
 }
 
-.icon-color{
-    color: white;
-}
-
-.icons-top-right{
-    position: absolute;
-    display: inline;
-    right: 1px;
-    top: 1px;
-}
-
-.icon-border{
-    padding: 5px;
-    margin: 5px;
-    border-radius: 3px;
-
-    background-color: rgb(37, 37, 37);
-    border: 1px rgb(70, 70, 70);
-}
-
 .bigger-icon{
     font-size: 3em;
     
@@ -94,3 +104,11 @@ img{
 #arrow-icon-2{
     right: 10px;
 }
+
+            /* FOOTER */
+
+
+footer{
+    height: 40px;
+    background-color: rgb(31, 31, 31);
+}            
